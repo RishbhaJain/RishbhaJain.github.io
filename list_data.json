@@ -1,22 +1,33 @@
 {
-	"movies": [
+	"Hobbies": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Hobby": "Hiking",
+			"Highlight": "Himalayan treks",
+			"Year": "2023"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Hobby": "Swimming",
+			"Highlight": "Undergrad swim team",
+			"Year": "2021"
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Hobby": "Eating",
+			"Highlight": "Burmese food, Indian food",
+			"Year": "2024"
+		}
+	],
+	"Jobs": [
+		{
+			"Title": "Product Manager",
+			"Company": "Flipkart",
+			"Highlight": "GenAI powered seller chatbot",
+			"Year": "2021-2025"
+		},
+		{
+			"Title": "Student Reader",
+			"Company": "UC Berkeley",
+			"Highlight": "Entreprenurship course",
+			"Year": "2025"
 		}
 	]
 }
