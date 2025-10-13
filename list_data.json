@@ -1,21 +1,4 @@
 {
-	"Hobbies": [
-		{
-			"Hobby": "Hiking",
-			"Highlight": "Himalayan treks",
-			"Year": "2023"
-		},
-		{
-			"Hobby": "Swimming",
-			"Highlight": "Undergrad swim team",
-			"Year": "2021"
-		},
-		{
-			"Hobby": "Eating",
-			"Highlight": "Burmese food, Indian food",
-			"Year": "2024"
-		}
-	],
 	"Jobs": [
 		{
 			"Title": "Product Manager",
