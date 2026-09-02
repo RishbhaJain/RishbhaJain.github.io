@@ -1,48 +1,245 @@
-<!DOCTYPE HTML>  
-<html>  
-    <header>
-        <link rel="stylesheet" href="Example_CSS_Style Templates/style1.css">
-        <link rel="stylesheet" href="table_style.css">
-        <title>My Webpage Title</title>
-    </header>
-    <body>  
-        <!---Navigation--->
-        <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <!--This code defines the "My Webpage" link in the top left corner of the navigation pane-->
-                <a class="navbar-brand" href="./index.html">My Webpage</a>
-                <!--This code defines the "List" link in the top right corner of the navigation pane-->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!--This section defines the middle section of the webpage-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                
-                <!-- This code is for the student name-->
-                <h1 class="masthead-heading text-uppercase mb-0">Rishbha Jain</h1>
-                <!--This code creates the two lines separating the student name from the subtitle-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!--This code creates the subheading underneath the line dividers-->
-                <p class="masthead-subheading font-weight-light mb-0">Professional Human</p>
-            </div>
-        </header>
-        <section class="text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6 mb-5">
-                        <!-- put your bio paragraph here; remember to use the correct html tags -->
-                        <p>I am a student at the University of Berkeley, School of Information. I am a master's student in Information Science and a graduate certificate in Data Science. I am interested in data science and machine learning.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rishabh Jain's CS 180/280A Project 0: Becoming Friends with Your Camera."
+    />
+    <meta name="theme-color" content="#f4f0e7" />
+    <title>Project 0 — Through the Lens</title>
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to project</a>
 
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Back to top">
+        <span class="wordmark-mark" aria-hidden="true"></span>
+        RJ / CS 180
+      </a>
+
+      <nav>
+        <a href="#portrait">Portrait</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#dolly">Dolly zoom</a>
+      </nav>
+
+      <span class="course-tag">Fall ’26</span>
+      <span class="scroll-progress" aria-hidden="true"></span>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">CS 180 / 280A · Project 00</p>
+          <h1>Through<br />the <em>lens.</em></h1>
+          <p class="hero-intro">
+            An exploration of how camera position and focal length change the
+            way we see faces, spaces, and depth.
+          </p>
+          <a class="text-link" href="#portrait">
+            View the study <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <span class="orbit orbit-one"></span>
+          <span class="orbit orbit-two"></span>
+          <div class="lens">
+            <span class="lens-ring lens-ring-one"></span>
+            <span class="lens-ring lens-ring-two"></span>
+            <span class="lens-glint"></span>
+          </div>
+          <p class="hero-art-note">position × focal length</p>
+        </div>
+
+        <p class="hero-index" aria-hidden="true">00</p>
+      </section>
+
+      <section class="project-section" id="portrait" data-section="01">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Study 01 · Portrait</p>
+            <h2>Same face.<br /><em>Different distance.</em></h2>
+          </div>
+          <p class="section-summary">
+            Moving the camera back and zooming in preserves the subject’s size,
+            but changes the relative scale of near and far facial features.
+          </p>
+        </div>
+
+        <div class="comparison-grid">
+          <figure class="photo-card photo-card-warm">
+            <div class="media-frame" data-media>
+              <img
+                src="images/portrait-close.jpg"
+                alt="Close-up portrait photographed with a wide field of view"
+              />
+              <div class="media-placeholder">
+                <span>01A</span>
+                <p>Add <code>portrait-close.jpg</code></p>
+              </div>
+            </div>
+            <figcaption>
+              <div>
+                <span class="caption-number">01A</span>
+                <h3>Up close</h3>
+              </div>
+              <p>Wide field of view · short camera distance</p>
+            </figcaption>
+          </figure>
+
+          <figure class="photo-card photo-card-blue">
+            <div class="media-frame" data-media>
+              <img
+                src="images/portrait-zoom.jpg"
+                alt="Portrait photographed from farther away while zoomed in"
+              />
+              <div class="media-placeholder">
+                <span>01B</span>
+                <p>Add <code>portrait-zoom.jpg</code></p>
+              </div>
+            </div>
+            <figcaption>
+              <div>
+                <span class="caption-number">01B</span>
+                <h3>Stepped back</h3>
+              </div>
+              <p>Longer focal length · greater camera distance</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <aside class="observation">
+          <span class="observation-label">What changed?</span>
+          <p>
+            In the close image, features nearest the lens appear disproportionately
+            large. From farther away, the distance between the camera and each
+            facial feature becomes more similar, producing a flatter, more natural
+            portrait.
+          </p>
+        </aside>
+      </section>
+
+      <section class="project-section architecture" id="architecture" data-section="02">
+        <div class="section-heading section-heading-light">
+          <div>
+            <p class="eyebrow">Study 02 · Architecture</p>
+            <h2>Space,<br /><em>compressed.</em></h2>
+          </div>
+          <p class="section-summary">
+            Two nearly matched compositions reveal how viewpoint—not zoom
+            alone—controls the apparent depth of a scene.
+          </p>
+        </div>
+
+        <div class="architecture-stage">
+          <figure class="architecture-photo architecture-photo-back">
+            <div class="media-frame" data-media>
+              <img
+                src="images/architecture-wide.jpg"
+                alt="Architectural scene photographed nearby without zoom"
+              />
+              <div class="media-placeholder">
+                <span>02B</span>
+                <p>Add <code>architecture-wide.jpg</code></p>
+              </div>
+            </div>
+            <figcaption><span>02B</span> Close position / wide</figcaption>
+          </figure>
+
+          <figure class="architecture-photo architecture-photo-front">
+            <div class="media-frame" data-media>
+              <img
+                src="images/architecture-zoom.jpg"
+                alt="Architectural scene photographed from farther away while zoomed in"
+              />
+              <div class="media-placeholder">
+                <span>02A</span>
+                <p>Add <code>architecture-zoom.jpg</code></p>
+              </div>
+            </div>
+            <figcaption><span>02A</span> Far position / zoomed</figcaption>
+          </figure>
+
+          <p class="stage-word" aria-hidden="true">DEPTH</p>
+        </div>
+
+        <div class="architecture-notes">
+          <p class="pull-quote">“Zoom frames the scene. Position shapes it.”</p>
+          <p>
+            From farther away, the distance from the camera to foreground and
+            background objects is proportionally more alike, so the gap between
+            them appears compressed. Walking forward exaggerates that gap and
+            restores a stronger sense of depth.
+          </p>
+        </div>
+      </section>
+
+      <section class="project-section dolly" id="dolly" data-section="03">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Study 03 · Motion</p>
+            <h2>The dolly<br /><em>zoom.</em></h2>
+          </div>
+          <p class="section-summary">
+            The camera retreats as the lens zooms in. The subject holds steady
+            while the world around it seems to stretch.
+          </p>
+        </div>
+
+        <figure class="dolly-feature">
+          <div class="media-frame" data-media>
+            <img
+              src="images/dolly-zoom.gif"
+              alt="Animated dolly zoom sequence with a stable subject and changing background perspective"
+            />
+            <div class="media-placeholder media-placeholder-dark">
+              <span>03</span>
+              <p>Add <code>dolly-zoom.gif</code></p>
+            </div>
+          </div>
+          <figcaption>
+            <span>Camera movement</span>
+            <span class="motion-line" aria-hidden="true"></span>
+            <span>Focal length</span>
+          </figcaption>
+        </figure>
+
+        <div class="dolly-explanation">
+          <div class="diagram" aria-label="Diagram showing the camera moving backward while zoom increases">
+            <div class="diagram-camera" aria-hidden="true">
+              <span></span>
+            </div>
+            <div class="diagram-path" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="diagram-subject" aria-hidden="true"></div>
+            <p><span>move back</span><span>zoom in</span></p>
+          </div>
+          <div class="explanation-copy">
+            <p class="eyebrow">How it works</p>
+            <p>
+              At every step, I increased the focal length as I moved backward,
+              keeping the subject at roughly the same size. The changing camera
+              position alters the perspective, while the changing zoom restores
+              the framing—creating the signature “Vertigo” effect.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p class="footer-title">Becoming Friends<br />with Your Camera</p>
+        <p>Rishabh Jain · CS 180/280A · Fall 2026</p>
+      </div>
+      <a class="text-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
 </html>
