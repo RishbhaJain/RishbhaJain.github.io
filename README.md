@@ -1,4 +1,4 @@
-# CS 180/280A — Project 0
+# CS 180/280A: Project 0
 
 A responsive static project page for **Becoming Friends with Your Camera**.
 

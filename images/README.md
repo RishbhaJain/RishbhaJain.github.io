@@ -2,11 +2,11 @@
 
 The final project images use these filenames:
 
-- `portrait-close.jpg` — close-up / wide portrait
-- `portrait-zoom.jpg` — stepped-back / zoomed portrait
-- `architecture-zoom.jpg` — distant / zoomed architectural scene
-- `architecture-wide.jpg` — nearby / unzoomed architectural scene
-- `dolly-zoom.gif` — animated dolly zoom
+- `portrait-close.jpg`: close-up / wide portrait
+- `portrait-zoom.jpg`: stepped-back / zoomed portrait
+- `architecture-zoom.jpg`: distant / zoomed architectural scene
+- `architecture-wide.jpg`: nearby / unzoomed architectural scene
+- `dolly-zoom.gif`: animated dolly zoom
 
 Source mapping:
 
