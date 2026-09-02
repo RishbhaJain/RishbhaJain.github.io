@@ -49,12 +49,18 @@ main {
 }
 
 section {
-  margin-bottom: 72px;
+  margin: 0;
+  padding-bottom: 56px;
   scroll-margin-top: 24px;
 }
 
-.intro {
-  margin-bottom: 72px;
+section + section {
+  padding-top: 56px;
+  border-top: 1px solid #ccc;
+}
+
+section:last-child {
+  padding-bottom: 0;
 }
 
 h1,
@@ -88,8 +94,12 @@ img {
 }
 
 figcaption {
-  margin-top: 8px;
+  padding: 8px 0 12px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
   font-size: var(--text-size);
+  font-style: italic;
+  text-align: center;
 }
 
 .equation {
