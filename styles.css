@@ -528,7 +528,7 @@ code {
 
 .architecture-stage {
   position: relative;
-  min-height: min(75vw, 940px);
+  min-height: min(78vw, 1050px);
   margin: 0 -2vw;
 }
 
@@ -562,22 +562,22 @@ code {
 .architecture-photo-back {
   top: 0;
   right: 1vw;
-  width: min(60vw, 870px);
+  width: min(44vw, 620px);
 }
 
 .architecture-photo-back .media-frame {
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 3 / 4;
 }
 
 .architecture-photo-front {
-  top: min(24vw, 350px);
+  top: min(18vw, 245px);
   left: 0;
   z-index: 2;
-  width: min(55vw, 780px);
+  width: min(40vw, 565px);
 }
 
 .architecture-photo-front .media-frame {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
 }
 
 .stage-word {
@@ -623,11 +623,12 @@ code {
 }
 
 .dolly-feature {
-  margin: 0;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .dolly-feature .media-frame {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 3 / 4;
   border: clamp(0.8rem, 2vw, 2rem) solid var(--ink);
   background: var(--ink);
 }
@@ -884,14 +885,14 @@ footer div > p:last-child {
   }
 
   .architecture-stage {
-    min-height: 105vw;
+    min-height: 120vw;
   }
 
-  .architecture-photo-back { width: 75vw; }
+  .architecture-photo-back { width: 68vw; }
 
   .architecture-photo-front {
-    top: 38vw;
-    width: 72vw;
+    top: 32vw;
+    width: 64vw;
   }
 
   .architecture-notes {
@@ -943,7 +944,7 @@ footer div > p:last-child {
   }
 
   .dolly-feature .media-frame {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 3 / 4;
   }
 
   .dolly-feature figcaption {

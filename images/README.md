@@ -1,6 +1,6 @@
 # Image drop zone
 
-Add the final project images here using these exact filenames:
+The final project images use these filenames:
 
 - `portrait-close.jpg` — close-up / wide portrait
 - `portrait-zoom.jpg` — stepped-back / zoomed portrait
@@ -8,6 +8,14 @@ Add the final project images here using these exact filenames:
 - `architecture-wide.jpg` — nearby / unzoomed architectural scene
 - `dolly-zoom.gif` — animated dolly zoom
 
-The page automatically replaces its graphic placeholders as soon as files with
-these names exist. JPG, PNG, HEIC, or other source photos can be converted and
-cropped after they are supplied; the names above are simply the final web assets.
+Source mapping:
+
+- `IMG_5989.HEIC` → `portrait-close.jpg`
+- `IMG_5990.HEIC` → `portrait-zoom.jpg`
+- `IMG_6021.HEIC` → `architecture-zoom.jpg`
+- `IMG_6020.HEIC` → `architecture-wide.jpg`
+- `IMG_5997.HEIC` through `IMG_6007.HEIC` → `dolly-zoom.gif`
+
+The HEIC stills were decoded with macOS's native image pipeline, converted to
+1800 × 2400 JPEGs, and saved without embedded location metadata. The GIF is a
+540 × 720 ping-pong loop assembled from the ten supplied frames.
