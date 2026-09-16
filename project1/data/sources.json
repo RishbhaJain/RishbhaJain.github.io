@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "suzdal_cathedral.tif",
+    "title": "Cathedral of the Nativity of the Virgin, Suzdal",
+    "date": "1912",
+    "item_url": "https://www.loc.gov/pictures/item/2018681152/",
+    "negative_id": "LC-DIG-prok-00943",
+    "download_url": "https://tile.loc.gov/storage-services/master/pnp/prok/00900/00943u.tif",
+    "width": 3663,
+    "height": 9597,
+    "sha256": "31ebea023cb4fc1c5b47ceabdb053f13056c25a2fb0579846eaad6acd3a20d48"
+  },
+  {
+    "filename": "tea_workers.tif",
+    "title": "Workers harvesting tea, Chakva",
+    "date": "1905\u20131915",
+    "item_url": "https://www.loc.gov/pictures/item/2018679759/",
+    "negative_id": "LC-DIG-prok-01522",
+    "download_url": "https://tile.loc.gov/storage-services/master/pnp/prok/01500/01522u.tif",
+    "width": 3683,
+    "height": 9656,
+    "sha256": "7a424610baa2c6ec3707bc536e42dc650b6e32ab683c2c6d3424d80e32892422"
+  },
+  {
+    "filename": "tea_foreman.tif",
+    "title": "Tea-farm foreman Lau-Dzhen-Dzhau, Chakva",
+    "date": "1905\u20131915",
+    "item_url": "https://www.loc.gov/pictures/item/2018679751/",
+    "negative_id": "LC-DIG-prok-01520",
+    "download_url": "https://tile.loc.gov/storage-services/master/pnp/prok/01500/01520u.tif",
+    "width": 3731,
+    "height": 9656,
+    "sha256": "edd89f8b40bf6313379c16be3ed5ea53d30ba7e3cdbbaf0c5ad1050d53423f5c"
+  }
+]

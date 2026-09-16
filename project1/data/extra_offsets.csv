@@ -1,0 +1,7 @@
+input,method,metric,green_dy,green_dx,red_dy,red_dx,compute_seconds,save_seconds,shared_prepare_seconds,generation_seconds,output
+suzdal_cathedral.tif,brightness,NCC,15,-12,46,-18,5.104817499988712,0.2336137080565095,1.0229562919121236,6.361495791934431,brightness/suzdal_cathedral_tif.jpg
+suzdal_cathedral.tif,edges,NCC,16,-11,46,-18,5.967907624901272,0.19220387493260205,1.0229562919121236,7.183193541830406,edges/suzdal_cathedral_tif.jpg
+tea_foreman.tif,brightness,NCC,61,4,127,-7,4.556920959032141,0.20360875001642853,0.6132382079958916,5.373897291952744,brightness/tea_foreman_tif.jpg
+tea_foreman.tif,edges,NCC,63,6,129,-6,5.4076894170138985,0.2545100828865543,0.6132382079958916,6.275573957944289,edges/tea_foreman_tif.jpg
+tea_workers.tif,brightness,NCC,60,17,124,14,5.463807207997888,0.26251420797780156,0.5354752909624949,6.261926290928386,brightness/tea_workers_tif.jpg
+tea_workers.tif,edges,NCC,60,17,124,14,5.387877249973826,0.1841710419394076,0.5354752909624949,6.107624332886189,edges/tea_workers_tif.jpg
